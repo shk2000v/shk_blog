@@ -13,10 +13,11 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: "google",
+      tagId: "G-5XDD3SLQ3Q"
     },
     locale: "ko-KR",
-    baseUrl: "https://shk-doc.space/",
+    baseUrl: "shk-doc.space/",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
